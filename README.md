@@ -1,92 +1,95 @@
-Technical Assignment | Frontend Developer
-Build React app to share SpaceX data with the world.
+<h1 align="center">🚀 SpaceX Data Dashboard 🚀</h1>
 
-Aboutthe SpaceX
-● https://www.spacex.com designs, manufactures and launches advanced rockets
-and spacecraft.
-● They have open-sourced their data through https://docs.spacexdata.com/
+<p align="center">
+  <img src="https://art.pixilart.com/486745d4bb1ef18.gif" width="20" height="20">
+</p>
 
-Aboutthe assignment
-● Build a landing page using React to display Rockets or Capsules. Feel free to choose
-what interests you most.
-● Build authorized REST API to fetch & send data in between SpaceX & your app.
-There will be bonus points if you use PHP for authorization REST API.
+<p align="center">
+  Welcome to the SpaceX Data Dashboard! This React-based web application allows you to explore SpaceX's rocket and capsule data. You can search for rockets or capsules based on various criteria and view detailed information about each item. The application is built with a focus on performance, clean design, and user experience.
+</p>
 
-■ Don’t use any PHP framework
+  <div align="center">
+  <h2>Live Demo 👉 <a href="https://ayushi-frontend-developer.vercel.app/">Click here</a></h2>
+  <h2>Backend API 👉 <a href="https://naughty-tweed-jacket-elk.cyclic.app/">Click here</a></h2>
+</div>
 
-● A good-looking, pixel-perfect design for the landing page will showcase the design
-skills. Here are a few high-level design ideas, or you can choose your own design.
-○ https://app.moqups.com/7zYyF950Iv6Ty6kQtdfSizHNJJ9RHqNi/view/page
-/ad4d07508
-○ https://landing.moqups.com/img/content/wireframes/lo-fi/lo-fi-1600.png
-○ https://landing.moqups.com/img/content/wireframes/online-course-lp/onli
-ne-course-lp-800.png
 
-● Page must have three main sections: Banner, search form, and data grid.
-○ For the banner
-■ A modern banner layout that shows your UI skills
-○ For the search form
-■ Having three search filters would be excellent. Example: User can
-search Capsules by status, original_launch, and type
-■ Deliver a good user experience
+<h2 align="center">Technologies Used</h2>
 
-■ Fully functional search form without bugs
-■ Optimized search query to deliver quick results
-○ For the data grid
-■ Elegant design
-■ Display the right amount of data
-■ Paginate the data grid, for example, shows ten items per page.
-■ When clicking on the item, it should display the item data in the
-popup
+<p align="center">
+  <b>Frontend</b><br>
+  <img src="https://img.shields.io/badge/react-%23323330.svg?style=for-the-badge&logo=react&logoColor=%23F7DF1E" alt="react">
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="tailwindcss">
+</p>
 
-● The design needs to be responsive for all screen sizes and different browsers
-● React app should have optimized query so that it will load fast.
-● Use of Semantic HTML & SEO best practices is appreciated
-● Creating test cases for the code is not required, but it will take your assignment to
-another level.
-● Make sure the app should not produce any ESLint & PHPCSissues.
+<p align="center">
+  <b>Backend</b><br>
+  <img src="https://img.shields.io/badge/expressjs-%777BB4.svg?style=for-the-badge&logo=express.js&logoColor=white" alt="express">
+  <img src="https://img.shields.io/badge/mongoose-%2300f.svg?style=for-the-badge&logo=mongoose&logoColor=white" alt="mongoose">
+</p>
 
-Abouttools & technology
-Use the below tools & technology to build the app.
-● Must have
-○ React
-● Good to have
-○ Tailwind CSS
-○ State Context API
-○ Redux
-○ Jest
-○ PHP
-● Must avoid
-○ jQuery
-● Try to utilize the tools you use at most
-● Use as fewer libraries as possible
+<p align="center">
+  <b>Tools</b><br>
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github">
+  <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" alt="npm">
+  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white" alt="vscode">
+</p>
 
-Privileged and confidential © Brainstorm Force
+<p align="center">
+  <b>Deployment</b><br>
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" alt="vercel">
+  <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" alt="netlify">
+</p>
 
-This is how the assignment will be judged:
-● Proper use of React hooks & component hierarchy (20 marks)
-● Passing JEST tests for your various components (15 marks)
-● Implementation of OOPs & authorized REST API (15 marks)
-● Use of PHP for authorization REST API (10 marks)
-● UX / UI Design (10 marks)
-● Speed of application (15 marks)
-● Code formatting, linting, commits, PR descriptions, etc. (15 marks)
+<h2 align="center">Features</h2>
 
-How to submitthe assignment
+- Explore SpaceX Rockets and Capsules
+- Filter data by status, original launch date, and type
+- User-friendly and responsive design
+- Detailed information about each mission
+- Fast and optimized search queries
+- Secure and authorized REST API using PHP
 
-1. You need to upload your work on GitHub
-2. Make sure that GitHub repository is public and name should be: <Your Name> -
-   Frontend Developer
-3. Add proper commit messages & PR descriptions.
-4. Share video URL in PR description which shows working of the app.
-5. Share your PR/Branch link with us by replying to email.
+<h2 align="center">Project Overview</h2>
 
-Important:
-This dummy assignment can take roughly 4 - 5 hours to complete.
-Wondering why to put effortinto this assignment?
-If you achieve a score of 75 or higher, we would like to express our appreciation for your
-time and efforts by gifting you a premium Brainstorm Force branded T-shirt.
+<h3>Landing Page</h3>
 
-Hopefully, it inspires you to give your best shot.
+- Stunning and responsive banner
+- Three search filters for easy navigation
+- Quick and efficient search functionality
+- Clean and elegant data grid
+- Pagination for data grid
+- Detailed popup view for mission details
 
-Does it look like a fun assignment? All the best👍
+<h3>Responsive Design</h3>
+
+- Ensures compatibility with all screen sizes
+- Cross-browser compatibility
+
+<h3>Code Quality</h3>
+
+- Utilizes React hooks and component hierarchy
+- Passes Jest tests for various components
+- Implements OOP principles
+- Secure and authorized REST API using PHP
+- Follows best practices for UI/UX design
+- Optimized application speed
+- Follows code formatting and linting guidelines
+
+<h2 align="center">Getting Started</h2>
+
+1. Clone the repository to your local machine.
+2. Set up the backend API using Express and Mongoose (provide instructions if necessary).
+3. Navigate to the project directory.
+4. Run `npm install` to install the required dependencies.
+5. Run `npm start` to start the development server.
+
+<h2 align="center">Contribution Guidelines</h2>
+
+We welcome contributions to the SpaceX Data Explorer project. If you have ideas for new features or find any bugs, please open an issue in the repository. Pull requests are also encouraged.
+
+<h2 align="center">Show Your Support</h2>
+
+If you find this project interesting or useful, please consider giving it a ⭐️.
+
+<h1 align="center">🚀 Happy Exploring! 🌌</h1>
